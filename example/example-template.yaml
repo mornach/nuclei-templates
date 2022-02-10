@@ -1,0 +1,13 @@
+id: example-template
+
+info:
+  name: example template
+  author: mornach
+  description: alwas match
+  severity: info
+  tags: example
+
+requests:
+  - method: GET
+    path:
+      - "{{BaseURL}}"
