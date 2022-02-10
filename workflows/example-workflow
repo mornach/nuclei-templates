@@ -6,6 +6,5 @@ info:
   description: A simple test workflow
 
 workflows:
-  - template: example/example-detect-template.yaml
-    subtemplates:
-      - template: example/example-template.yaml
+  - template: example/example-template.yaml
+
